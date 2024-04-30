@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kintade's Music Recommender</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to Kintade's Music Recommender</h1>
+		</header>
+		<main>
+			<form id="likeForm">
+				<label for="songInput">Enter a Song:</label>
+				<input type="text" id="songInput" name="songInput" required>
+				<button type="submit">Like</button>
+			</form>
+			<div id="recommended">
+				<h2>Recommended Songs:</h2>
+				<ul id="recommendedList"></ul>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
+
